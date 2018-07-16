@@ -1,0 +1,95 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="assets/css/main.css">
+		<title>Aula 1</title>
+	</head>
+	<body>
+		<header>
+			<!--  -->
+			<!-- Nevagacao do site -->
+			<nav id="navegacao">
+				<ul>
+					<li>
+						<a href="#">Início</a>
+					</li>
+					
+					<li>
+						<a href="#institucional">Institucional</a>
+					</li>
+					
+					<li>
+						<a href="#itens">Itens</a>
+					</li>
+					
+					<li>
+						<a href="#">Contato</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="cabecalho">
+				<img id="abre-menu" src="assets/img/lines.png" onclick="abreMenu()"/>
+				
+			</div>
+		</header>
+		<!-- Secao principal -->
+		<main>
+			<!-- Banner -->
+			<section id="banner" class="linha">
+				<img id="banner-img" class="banner" src="assets/img/sao.jpg" alt="Banner principal do site"/>
+			</section>
+			<!-- Institucional -->
+			<section id="institucional" class="linha">
+				<div class="coluna-50">
+					<img src="assets/img/image-1.jpg"/>
+					
+				</div>
+				
+				<div class="coluna-50">
+					<p class="texto-padrao">Primeiro eu queria cumprimentar os internautas. <strong>-Oi Internautas!</strong> Depois dizer que o meio ambiente é sem dúvida nenhuma uma ameaça ao desenvolvimento sustentável. E isso significa que é uma ameaça pro futuro do nosso planeta e dos nossos países. O desemprego beira 20%, ou seja, 1 em cada 4 portugueses.</p>
+				</div>
+			</section>
+			<!-- Itens -->
+			<section id="itens" class="linha">
+				<div class="coluna-30">
+				<h2>Titulo 1</h2>
+					<p class="texto-padrao">Eu dou dinheiro pra minha filha. Eu dou dinheiro pra ela viajar, então é... é... Já vivi muito sem dinheiro, já vivi muito com dinheiro. -Jornalista: Coloca esse dinheiro na poupança que a senhora ganha R$10 mil por mês. -Dilma: O que que é R$10 mil?</p></div>
+				
+				<div class="coluna-30">
+				<h2>Titulo 2</h2>
+					<p class="texto-padrao">Ai você fala o seguinte: "- Mas vocês acabaram isso?" Vou te falar: -"Não, está em andamento!" Tem obras que "vai" durar pra depois de 2010. Agora, por isso, nós já não desenhamos, não começamos a fazer projeto do que nós "podêmo fazê"? 11, 12, 13, 14... Por que é que não?</p></div>
+				
+				<div class="coluna-30">
+				<h2>Titulo 3</h2>
+					<p class="texto-padrao">Se hoje é o dia das crianças... Ontem eu disse: o dia da criança é o dia da mãe, dos pais, das professoras, mas também é o dia dos animais, sempre que você olha uma criança, há sempre uma figura oculta, que é um cachorro atrás. O que é algo muito importante!</p></div>
+			</section>
+			
+			<section id="footer" class="linha">
+				<div class="coluna-100">
+				
+				<ul class="icones">
+				<li>
+					<a href="https://www.instagram.com/" target="_blank"><img src="assets/img/instagram.png"/></a>
+				</li>
+				
+				<li>
+					<a href="https://www.facebook.com/" target="_blank"><img src="assets/img/facebook.png"/></a>
+				</li>
+				
+				<li>
+					<a href="https://www.youtube.com/?hl=pt&gl=BR" target="_blank"><img src="assets/img/youtube.png"/></a>
+				</li>
+				</ul>
+				
+				</div>
+			</section>
+			
+		</main>
+		
+		<script>
+			function abreMenu(){
+				document.getElementById("navegacao").classList.toggle("menu-aberto");
+				document.getElementById("abre-menu").classList.toggle("abre-menu-aberto");
+			}
+		</script>
+	</body>
+</html>
